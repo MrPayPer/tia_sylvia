@@ -17,23 +17,55 @@ a{
     border: solid 1px black;
     border-radius: 0.5rem;
     padding: 0.8rem 1rem;
+    width: 100%;
+}
+
+.cta{
+    display: inline-block;
+}
+
+section{
+    border: solid 1px red;
+    width: auto;
 }
 
 body{
     font-family: 'Century Gothic';
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
 
 nav{
+    position: fixed;
+    width: 100%;
     display: flex;
     background-color: rgb(195, 195, 195);
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 4rem;
 }
 
 nav ul{
     display: flex;
     gap: 2.5rem;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    padding: 20rem 15rem 20rem 15rem;
+    align-items: start;
+    gap: 3rem;
+}
+
+.welcomeText{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.welcomeText h1{
+    font-size: 3.5rem;
 }
